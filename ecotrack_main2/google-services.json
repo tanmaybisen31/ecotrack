@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "983361157226",
+    "project_id": "ecotrack-1def2",
+    "storage_bucket": "ecotrack-1def2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983361157226:android:4b7d1b412faaae4fe13213",
+        "android_client_info": {
+          "package_name": "com.ojinn.EcoTrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983361157226-otjufov6foj6pbkdgs2eqe60vlicad9f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ojinn.EcoTrack",
+            "certificate_hash": "577d51b0676496c9709cbcf5f19e5c41e59c7606"
+          }
+        },
+        {
+          "client_id": "983361157226-rc8uamm9v2j2kjvkofu4lp0ajsl1i7it.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ojinn.EcoTrack",
+            "certificate_hash": "436eb65dd794afa42c5c5c27c643d9ede007f7b2"
+          }
+        },
+        {
+          "client_id": "983361157226-v7rhn3c8q08t0e1o06d8m6anc9ls5fkp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzpCUMh9Em5hxpdIoyIUkH5aZQ5VOeRL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983361157226-g2a36gqeh14bpom9ko89nou9buic5027.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
