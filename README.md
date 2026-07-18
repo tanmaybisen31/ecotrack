@@ -2,21 +2,21 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![JavaScript](https://img.shields.io/badge/JavaScript-Node.js%20%7C%20React%20Native-f7df1e.svg)
 
-A full-stack carbon footprint and sustainability tracker — an Express/MongoDB REST API paired with an Expo (React Native) mobile client.
+A full-stack carbon footprint and sustainability tracker built as an Express/MongoDB REST API paired with an Expo (React Native) mobile client.
 
 ## Overview
 
 EcoTrack lets a user log their environmental impact and set goals to reduce it. Each user (identified by email) accumulates two running series of values:
 
-- **Footprint** — carbon-emitting activities logged over time.
-- **Handprint** — positive, emission-reducing actions logged over time.
+- **Footprint**: carbon-emitting activities logged over time.
+- **Handprint**: positive, emission-reducing actions logged over time.
 
 Users can also create, list, and delete **sustainability goals**, each with a title, description, and an associated `carbonEmission` figure.
 
 The repository has two parts:
 
-- **`/` (root)** — the backend: a Node.js + Express REST API backed by MongoDB via Mongoose. User data is keyed by email; footprint and handprint are stored as arrays of numeric entries, and goals are stored as an embedded subdocument array (each goal gets a UUID).
-- **`ecotrack_main2/`** — the frontend: an Expo / React Native app (React Native 0.71, Expo SDK 48) that talks to the API over HTTP, with Firebase authentication and Google Sign-In, drawer/stack navigation, and chart rendering for impact data.
+- **`/` (root)** is the backend, a Node.js + Express REST API backed by MongoDB via Mongoose. User data is keyed by email; footprint and handprint are stored as arrays of numeric entries, and goals are stored as an embedded subdocument array (each goal gets a UUID).
+- **`ecotrack_main2/`** is the frontend, an Expo / React Native app (React Native 0.71, Expo SDK 48) that talks to the API over HTTP, with Firebase authentication and Google Sign-In, drawer/stack navigation, and chart rendering for impact data.
 
 ## API endpoints
 
